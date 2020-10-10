@@ -1,0 +1,37 @@
+$font-family-sans-serif: 'Open Sans',
+sans-serif;
+$font-size-base: 1rem;
+// $h1-font-size: 2.5rem;
+$body-color: #8d8f92;
+$btn-font-size: 2rem;
+$btn-padding-x: 50px;
+$btn-padding-y: 10px;
+$btn-border-radius: 10px;
+$h2-font-size: 36px;
+$paragraph-margin-bottom: 2rem;
+$input-btn-font-size-sm: 1.5rem;
+
+$turquoise:    #67e8fb;
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "turquoise":       $turquoise
+  ),
+  $colors
+);
+$safe:        $turquoise;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "safe":     $safe
+  ),
+  $theme-colors
+);
+
+$link-color:  $safe;
+
+$container-max-widths: (
+  xl: 1170px
+) !default;
